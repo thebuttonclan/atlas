@@ -6,6 +6,8 @@ import runSequence from 'run-sequence'
 import gulpLoadPlugins from 'gulp-load-plugins'
 import { spawn } from "child_process"
 import tildeImporter from 'node-sass-tilde-importer'
+import webpack from 'webpack';
+import webpackConfiguration from './webpack.config';
 
 const $ = gulpLoadPlugins()
 const browserSync = require('browser-sync').create()
@@ -84,17 +86,15 @@ gulp.task('js-watch', ['js'], (cb) => {
     cb();
 });
 
-gulp.task('js', () => {
-    return gulp.src([
-        'src/js/**/*.js'
-    ])
-    .pipe($.plumber({ errorHandler: onError }))
-    .pipe($.print())
-    .pipe($.babel())
-    .pipe($.concat('app.js'))
-    .pipe($.if(isProduction, $.uglify()))
-    .pipe($.size({ gzip: true, showFiles: true }))
-    .pipe(gulp.dest('static/js'))
+gulp.task('js', (cb) => {
+    webpack(Object.assign({}, webpackConfiguration), (err, stats) => {
+        if (err) {
+            console.log(err);
+            return;
+        }
+        browserSync.reload();
+        cb();
+    });
 })
 
 gulp.task('fonts', () => {
