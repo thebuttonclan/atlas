@@ -210,7 +210,7 @@ disableAliases = true
     instagram = "#"
     github = "#"
 
- 
+
   # [[params.team.item]]
   #   name = "Jason Doe"
   #   position = "Chief haranguer"
