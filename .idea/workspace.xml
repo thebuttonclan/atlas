@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c20e435-47fe-4600-8e44-0845aab6c9b2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/layouts/partials/hero.html" afterPath="$PROJECT_DIR$/layouts/partials/hero.html" />
-      <change beforePath="$PROJECT_DIR$/src/sass/app.scss" afterPath="$PROJECT_DIR$/src/sass/app.scss" />
+      <change beforePath="$PROJECT_DIR$/config.toml" afterPath="$PROJECT_DIR$/config.toml" />
       <change beforePath="$PROJECT_DIR$/themes/hugo-icon" afterPath="$PROJECT_DIR$/themes/hugo-icon" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="750">
-      <file leaf-file-name="config.toml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="config.toml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.toml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="1331">
+              <caret line="233" column="38" lean-forward="false" selection-start-line="233" selection-start-column="38" selection-end-line="233" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -55,11 +54,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hero.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hero.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layouts/partials/hero.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="9" column="132" lean-forward="false" selection-start-line="9" selection-start-column="132" selection-end-line="9" selection-end-column="132" />
+            <state relative-caret-position="903">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/hugo-icon/layouts/partials/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -99,9 +108,9 @@
         <option value="$PROJECT_DIR$/layouts/index.html" />
         <option value="$PROJECT_DIR$/layouts/partials/services.html" />
         <option value="$PROJECT_DIR$/layouts/partials/team.html" />
-        <option value="$PROJECT_DIR$/config.toml" />
         <option value="$PROJECT_DIR$/src/sass/app.scss" />
         <option value="$PROJECT_DIR$/layouts/partials/hero.html" />
+        <option value="$PROJECT_DIR$/config.toml" />
       </list>
     </option>
   </component>
@@ -163,6 +172,32 @@
               <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="partials" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="landing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="landing" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="landing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="landing" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="hugo-icon" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="landing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="landing" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="hugo-icon" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="landing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="landing" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="hugo-icon" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="partials" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -218,7 +253,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12485000" />
+    <option name="totallyTimeSpent" value="12640000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="7664" y="-16" width="3872" height="2092" extended-state="7" />
@@ -542,13 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/hugo-icon/layouts/partials/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="712">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/hugo-icon/layouts/partials/js.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="774">
@@ -615,14 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.toml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/app.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="688">
@@ -649,8 +669,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/layouts/partials/hero.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="9" column="132" lean-forward="false" selection-start-line="9" selection-start-column="132" selection-end-line="9" selection-end-column="132" />
+        <state relative-caret-position="903">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/hugo-icon/layouts/partials/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1331">
+          <caret line="233" column="38" lean-forward="false" selection-start-line="233" selection-start-column="38" selection-end-line="233" selection-end-column="38" />
           <folding />
         </state>
       </provider>
